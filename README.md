@@ -158,3 +158,4 @@ function redirectToGoogle() {
     setTimeout(() => {
         window.location.href = "https://www.google.com";
     }, 200
+t
