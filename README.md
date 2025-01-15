@@ -1,4 +1,4 @@
-HTML CODE: <!DOCTYPE html>
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,9 +24,7 @@ HTML CODE: <!DOCTYPE html>
 
     <script src="script.js"></script>
 </body>
-</html>
-
-CSS CODE:  /* General body styling */
+</html><style>/* General body styling */
 body {
     font-family: "Courier New", Courier, monospace;
     color: #0f0;
@@ -126,9 +124,7 @@ h1 {
 
 .telegram-link:hover {
     background-color: #006fa1; /* Darker Telegram blue */
-}
-
-Java script CODE:  // Function to generate a random prediction
+}</style><script>// Function to generate a random prediction
 function generatePrediction() {
     const predictions = ["Big", "Small"];
     return predictions[Math.floor(Math.random() * predictions.length)];
@@ -161,11 +157,4 @@ function startCountdown() {
 function redirectToGoogle() {
     setTimeout(() => {
         window.location.href = "https://www.google.com";
-    }, 2000); // Redirect after 2 seconds
-}
-
-// Initialize the app
-updatePrediction();
-startCountdown();
-
-Please update this code for replit. If everything comes to color matching.
+    }, 200
